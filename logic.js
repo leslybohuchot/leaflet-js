@@ -7,7 +7,7 @@ var plates = "https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB200
 console.log(plates)
 
 function markerSize(mag) {
-  return mag * 30000;
+  return mag * 40000;
 }
 
 
