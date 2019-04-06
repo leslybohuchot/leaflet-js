@@ -3,8 +3,8 @@
 // link to the eartquake feed
 var link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson"
 
-// var plates = "https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json"
-// console.log(plates)
+var plates = "https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json"
+console.log(plates)
 
 function markerSize(mag) {
   return mag * 30000;
